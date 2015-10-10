@@ -1,11 +1,15 @@
-<!doctype html>
+<!-- <!doctype html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Skills-Web</title>
-    <link rel="stylesheet" href="/static/styles.css">
-</head>
-<body>
+    <meta charset="UTF-8"> -->
+   <!--  <title>Skills-Web</title> -->
+ <!--    <link rel="stylesheet" href="/static/styles.css"> -->
+<!-- </head> -->
+<!-- <body> -->
+{% extends 'base.html' %}
+{% block title %}Application form{% endblock %}
+
+{% block content %}
     <!-- This page needs a form that can capture data about the user's
     first name, last name, job title, and salary requirements. -->
      <h1>Apply Now!</h1>
@@ -27,5 +31,7 @@
             </label>
             <input type="submit" value="Submit application">
         </form>
-</body>
-</html>
+
+{% endblock %}
+<!-- </body>
+</html> -->

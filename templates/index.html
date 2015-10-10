@@ -1,15 +1,18 @@
-<!doctype html>
+<!-- <!doctype html>
 <html>
-<head>
-  <title>Home page</title>
-</head>
-<body>
+    <head>
+        <title>Home page</title>
+    </head>
+    <body> -->
+{% extends 'base.html' %}
+{% block title %}Home Page{% endblock %}
 
-<h1>Welcome to our site</h1>
+{% block content %}
+        <h1>Welcome to our site</h1>
 
-<p>Want to join our team?</p>
+        <p>Want to join our team?</p>
 
-<a href="/application-form"><button>Apply now!</button></a>
-
-</body>
-</html>
+        <a href="/application-form"><button>Apply now!</button></a>
+{% endblock %}
+<!--     </body>
+</html> -->
